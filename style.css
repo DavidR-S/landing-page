@@ -9,9 +9,9 @@
 }
 
 .header{
-    flex: 1 1 auto;
+    flex-shrink: 0;
     display: flex;
-    height: 25px;
+    align-items: center;
 
 }
 
@@ -21,11 +21,8 @@
 }
 .header div *{
     flex: 1;
-    align-items: center;
-    justify-content: center;
-    margin: 45;
-}
-    
+}   
+   
 #header{
     flex: 1;
     margin:0%;
