@@ -126,15 +126,25 @@ body{
 }
 
 .box-three{
-    height: 400px;
+    height: 600px;
     background-color: #e5e7eb;
+    padding: 150px 350px 150px 350px;
+    box-sizing: border-box;
 
 
+
+}
+#quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 100;
+    color:#1F2937;
+    f
 }
 
 .box-four{
     background-color: white;
-    height:400px
+    height:600px
 }
 
 .footer{
